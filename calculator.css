@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calculator{
+    width: 35%;
+    padding: 2em;
+    border: 1px solid;
+}
+
+#display {
+    padding: 1em;
+    text-align: right;
+    border: 1px solid;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#numbers{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(4,auto);
+}
+
+#operators{
+    display: grid;
+}
